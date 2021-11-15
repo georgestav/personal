@@ -78,7 +78,7 @@ p {
 	height: 65vh;
 	margin: 10% auto 10% 3%;
 	text-align: center;
-	background-image: url(imgs/background_img.svg);
+	background-image: url(https://georgestav.dev/imgs/background_img.svg);
 	background-repeat: no-repeat;
 	background-size: 25%;
 }
