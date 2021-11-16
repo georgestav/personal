@@ -198,7 +198,8 @@ blockquote p::after {
 	text-align: center;
 }
 .proj__image {
-	max-width: 100%;
+	height: 300px;
+	width: 550px;
 	border-radius: 1em;
 }
 
@@ -333,6 +334,11 @@ footer {
 	.title {
 		background-image: none;
 	}
+	.proj__image {
+		max-height: 300px;
+		max-width: 350px;
+		border-radius: 1em;
+	}
 }
 
 @media (max-width: 800px) {
@@ -354,6 +360,11 @@ footer {
 	.frontend__logos,
 	.backend__logos {
 		content-visibility: hidden;
+	}
+	.proj__image {
+		/* max-height: 300px; */
+		max-width: 100%;
+		border-radius: 1em;
 	}
 	.proj__item {
 		width: 100%;
