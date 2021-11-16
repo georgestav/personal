@@ -198,8 +198,8 @@ blockquote p::after {
 	text-align: center;
 }
 .proj__image {
-	height: 300px;
-	width: 550px;
+	height: 100%;
+	width: 100%;
 	border-radius: 1em;
 }
 
@@ -254,6 +254,9 @@ blockquote p::after {
 .cta__button:focus {
 	background-color: var(--text-color);
 	color: var(--main-bg-color);
+}
+.modal_icon {
+	color: var(--text-color);
 }
 
 .close-modal {
