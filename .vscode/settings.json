@@ -1,0 +1,5 @@
+{
+	"git.autofetch": true,
+	"git.terminalAuthentication": true,
+	"github.gitAuthentication": true
+}
