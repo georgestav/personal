@@ -38,7 +38,7 @@ modalwindow();
 
 // project images, show text on hover
 
-function hoverImages() {
+(function () {
 	for (const each of projects) {
 		each.addEventListener("mouseenter", function () {
 			this.classList.add("mouseover");
@@ -61,7 +61,7 @@ function hoverImages() {
 			}
 		});
 	}
-}
-hoverImages();
+})();
+// hoverImages();
 
 console.log("💙 Programming is real fun isn't it?");
